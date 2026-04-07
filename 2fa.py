@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-# ============================================
+# ==========================================================================
 # Smart 2FA Manager - independent TOTP generator
-# Version: v1.0.0
+# Version: v1.0.1
 # Author: Alexander Suvorov
-# Repository: https://github.com/smartlegionlab/smart-2fa-manager-python
+# Repository: https://github.com/smartlegionlab/smart-2fa-manager-python-cli
 # License: BSD 3-Clause
-# ============================================
-
+# ==========================================================================
 import sys
 import subprocess
 import getpass
@@ -19,7 +18,7 @@ CONFIG_DIR = Path.home() / ".2fa"
 SECRETS_ENC = CONFIG_DIR / "secrets.gpg"
 SECRETS_TMP = CONFIG_DIR / "secrets.tmp"
 BACKUP_DIR = CONFIG_DIR / "backups"
-VERSION = "v1.0.0"
+VERSION = "v1.0.1"
 
 RED = '\033[0;31m'
 GREEN = '\033[0;32m'
