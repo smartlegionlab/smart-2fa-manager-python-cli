@@ -1,4 +1,4 @@
-# Smart 2FA Manager (Python/Cli) <sup>v1.0.1</sup>
+# Smart 2FA Manager (Python/Cli) <sup>v1.0.2</sup>
 
 ---
 
@@ -62,15 +62,22 @@ sudo dnf install oathtool gnupg2 qrencode python3
    chmod +x 2fa.py
    sudo cp 2fa.py /usr/local/bin/2fa.py
    ```
+   Important! This command `2fa.sh init` should only be run on first launch!!! If you already have a .2FA folder created earlier that already stores your services, initialization is not required; you can start using the application immediately.
+   Run only if you don't have a `~/.2fa` folder and haven't previously initialized using other similar applications or added services!
 
-   Now you can use: `2fa.py init`
-```
+   Now you can use:
+   ```bash
+   2fa.py init
+   ```
+
 
 ---
 
 ## Quick Start
 
 ```bash
+# Important! This command `2fa.sh init` should only be run on first launch!!! If you already have a .2FA folder created earlier that already stores your services, initialization is not required; you can start using the application immediately.
+# Run only if you don't have a `~/.2fa` folder and haven't previously initialized using other similar applications or added services!
 # Initialize storage (creates encrypted ~/.2fa/secrets.gpg)
 2fa.py init
 
