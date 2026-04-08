@@ -1,4 +1,4 @@
-# Smart 2FA Manager (Python/Cli) <sup>v1.0.2</sup>
+# Smart 2FA Manager (Python/Cli) <sup>v1.0.3</sup>
 
 ---
 
