@@ -431,7 +431,7 @@ def usage():
 Smart 2FA Manager {VERSION} - Offline TOTP 2FA generator for Linux
 
 Usage:
-    2fa <command> [arguments]
+    2fa.py <command> [arguments]
 
 Commands:
     add <service> <secret>     Add a new service
@@ -449,14 +449,14 @@ Commands:
     help                       Show this help message
 
 Examples:
-    2fa init
-    2fa add github JBSWY3DPEHPK3PXP
-    2fa get github
-    2fa list
-    2fa show-all
-    2fa qr github
-    2fa backup
-    2fa restore ~/.2fa/backups/secrets.2026-04-06.gpg
+    2fa.py init
+    2fa.py add github JBSWY3DPEHPK3PXP
+    2fa.py get github
+    2fa.py list
+    2fa.py show-all
+    2fa.py qr github
+    2fa.py backup
+    2fa.py restore ~/.2fa/backups/secrets.2026-04-06.gpg
 
 File Structure:
     ~/.2fa/secrets.gpg          # Encrypted master storage
