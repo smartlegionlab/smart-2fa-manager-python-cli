@@ -1,4 +1,4 @@
-# Smart 2FA Manager (Python/Cli) <sup>v1.0.3</sup>
+# Smart 2FA Manager (Cli) <sup>v1.1.0</sup>
 
 ---
 
@@ -6,11 +6,11 @@
 
 ---
 
-[![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smart-2fa-manager-python-cli)](https://github.com/smartlegionlab/smart-2fa-manager-python-cli)
-[![GitHub license](https://img.shields.io/github/license/smartlegionlab/smart-2fa-manager-python-cli)](https://github.com/smartlegionlab/smart-2fa-manager-python-cli/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/smartlegionlab/smart-2fa-manager-python-cli)](https://github.com/smartlegionlab/smart-2fa-manager-python-cli/)
-[![GitHub stars](https://img.shields.io/github/stars/smartlegionlab/smart-2fa-manager-python-cli?style=social)](https://github.com/smartlegionlab/smart-2fa-manager-python-cli/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/smart-2fa-manager-python-cli?style=social)](https://github.com/smartlegionlab/smart-2fa-manager-python-cli/network/members)
+[![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/smart-2fa-manager-cli)](https://github.com/smartlegionlab/smart-2fa-manager-cli)
+[![GitHub license](https://img.shields.io/github/license/smartlegionlab/smart-2fa-manager-cli)](https://github.com/smartlegionlab/smart-2fa-manager-cli/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/smartlegionlab/smart-2fa-manager-cli)](https://github.com/smartlegionlab/smart-2fa-manager-cli/)
+[![GitHub stars](https://img.shields.io/github/stars/smartlegionlab/smart-2fa-manager-cli?style=social)](https://github.com/smartlegionlab/smart-2fa-manager-cli/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/smart-2fa-manager-cli?style=social)](https://github.com/smartlegionlab/smart-2fa-manager-cli/network/members)
 
 ---
 
@@ -48,13 +48,13 @@ sudo dnf install oathtool gnupg2 qrencode python3
 1. Get the script from repository:
    ```bash
    cd ~
-   git clone https://github.com/smartlegionlab/smart-2fa-manager-python-cli.git
-   cd smart-2fa-manager-python-cli
+   git clone https://github.com/smartlegionlab/smart-2fa-manager-cli.git
+   cd smart-2fa-manager-cli
    ```
 
    Or download directly:
    ```bash
-   wget https://raw.githubusercontent.com/smartlegionlab/smart-2fa-manager-python-cli/main/2fa.py
+   wget https://raw.githubusercontent.com/smartlegionlab/smart-2fa-manager-cli/main/2fa.py
    ```
 
 2. Install:
@@ -161,9 +161,15 @@ sudo dnf install oathtool gnupg2 qrencode python3
 ## Author & Repository
 
 - **Author:** [@smartlegionlab](https://github.com/smartlegionlab/)
-- **Repository:** [smartlegionlab/smart-2fa-manager-python-cli](https://github.com/smartlegionlab/smart-2fa-manager-python-cli)
+- **Repository:** [smartlegionlab/smart-2fa-manager-cli](https://github.com/smartlegionlab/smart-2fa-manager-cli)
 - **Bash version:** [smartlegionlab/smart-2fa-manager-bash](https://github.com/smartlegionlab/smart-2fa-manager-bash)
-- **Python GUI version:** [smartlegionlab/smart-2fa-manager-python-gui](https://github.com/smartlegionlab/smart-2fa-manager-python-gui)
+- **Python GUI version:** [smartlegionlab/smart-2fa-manager-desktop](https://github.com/smartlegionlab/smart-2fa-manager-desktop)
 - **License:** [BSD 3-Clause](LICENSE)
+
+---
+
+## License
+
+**License:** [BSD 3-Clause](LICENSE)
 
 ---
